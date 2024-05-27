@@ -1,7 +1,7 @@
 # Curs_VCGJ_24_filme
 
-[DOBRE OCTAVIAN](#dobre-octavian) #
-[VASII GABRIEL](#vasii-gabriel) # 
+[DOBRE OCTAVIAN](#dobre-octavian) #  
+[VASII GABRIEL](#vasii-gabriel) #   
 
 ===================================
 
