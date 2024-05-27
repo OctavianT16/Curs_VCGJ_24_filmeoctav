@@ -1,41 +1,26 @@
-import sys
-
-from flask import Flask, url_for
-
-#from app.lib import network
-#from app.lib import linux
-#from app.grafice.exemplu_func_grad_2 import valori_x, valori_y, genereaza_grafice
-
-print('filme')
+from flask import Flask, url_for, render_template
 
 app = Flask(__name__)
 
 @app.route("/", methods=['GET'])
 def index():
-    ret = "<h1>FILME</h1>"
-    
-   
-    ret += "<pre>"
-   
-    ret += " - -test1\n"
-    ret += " - -test2"
-    
-    ret += "</pre>"
-    
-    ret += " - -test3\n"
-    ret += " - -test4"
-    
+    ret = f"<h1><a href={url_for('godzilla')}>Vasii Alexandru 441D - Godzilla</a></h1>"
     return ret
-    
 
-    
-@app.cli.command()
-def test():
-    """
-    Rulare 'unit tests'
-    
-    Apelare pytest din aplicatia systest, cu ajutorul comenzii flask.
-    
-    """
-    import pytest
-    sys.exit(pytest.main(["."]))
+
+@app.route('/godzilla', methods=['GET'])
+def godzilla():
+    return render_template('/Gabriel/godzilla.html')
+
+@app.route('/description')
+def description():
+    return render_template('/Gabriel/description.html')
+
+@app.route('/trailer')
+def trailer():
+    return render_template('/Gabriel/trailer.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+
