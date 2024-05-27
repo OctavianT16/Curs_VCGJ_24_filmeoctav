@@ -82,7 +82,7 @@ def godzilla():
     return render_template('/Gabriel/godzilla.html')
 
 @app.route('/description')
-def description():
+def description_godzilla():
     return render_template('/Gabriel/description.html')
 
 @app.route('/trailer')
