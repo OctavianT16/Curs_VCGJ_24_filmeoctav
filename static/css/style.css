@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('../img/godzilla_background1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+p {
+    color: #ddd;
+    font-size: 1.1em;
+}
+
+button {
+    background-color: #444;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+.div-back
+{
+    position:absolute;
+    top:0;
+    left:0;
+    margin:0;
+}

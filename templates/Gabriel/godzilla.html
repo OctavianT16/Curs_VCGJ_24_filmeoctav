@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Godzilla</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class = "div-back">
+        <button onclick="location.href='{{ url_for('index') }}'">Main App</button>
+    </div>
+    <div class="container">
+        <h1>Godzilla</h1>
+        <img src="{{ url_for('static', filename='img/godzilla_background.jpg') }}" alt="Godzilla Poster">
+        <p><strong>Gen:</strong> Action, Sci-Fi</p>
+        <p><strong>Release Date:</strong> May 16, 2014</p>
+        <p><strong>Director:</strong> Gareth Edwards</p>
+        <p><strong>Cast:</strong> Aaron Taylor-Johnson, Elizabeth Olsen, Bryan Cranston</p>
+        <div>
+            <button onclick="location.href='{{ url_for('description') }}'">Description</button>
+            <button onclick="location.href='{{ url_for('trailer') }}'">Trailer</button>
+        </div>
+    </div>
+</body>
+</html>

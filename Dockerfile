@@ -28,7 +28,6 @@ RUN python3 -m venv .venv
 RUN chmod -R g+x .venv
 RUN .venv/bin/pip install -r quickrequirements.txt
 
-#WORKDIR /home/sysinfo/app
 
 # runtime configuration
 EXPOSE 5011

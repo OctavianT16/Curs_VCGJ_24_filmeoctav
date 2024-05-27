@@ -75,7 +75,20 @@ def maze_runner_trailer():
 @app.route("/mazerunner/description", methods=['GET'])
 def maze_runner_description():
     return render_template('/Octavian/mazerunner-description.html')
-  
+
+## Vasii Gabriel
+@app.route('/godzilla', methods=['GET'])
+def godzilla():
+    return render_template('/Gabriel/godzilla.html')
+
+@app.route('/description')
+def description():
+    return render_template('/Gabriel/description.html')
+
+@app.route('/trailer')
+def trailer():
+    return render_template('/Gabriel/trailer.html')
+
 @app.cli.command()
 def test():
     """
