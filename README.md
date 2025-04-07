@@ -1,7 +1,4 @@
 # [Curs_VCGJ_24_filme](https://github.com/OctavianT16/Curs_VCGJ_24_filmeoctav/blob/main/README.md)
-
-[DOBRE OCTAVIAN](#dobre-octavian)
-[VASII GABRIEL](#vasii-gabriel)
 ===================================
 
 # VASII GABRIEL
