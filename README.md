@@ -4,7 +4,7 @@
 
 [# VASII GABRIEL](#vasii-gabriel)   
 
-[# VASII Gabriel](/tree/main-Gabriel/README.md)
+[# VASII Gabriel](https://github.com/OctavianT16/Curs_VCGJ_24_filmeoctav/blob/main-Gabriel/README.md)
 
 ===================================
 
